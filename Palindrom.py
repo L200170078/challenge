@@ -28,7 +28,7 @@ def balik(data):
 			kanan-=1
 	return data
 
-kata="NABABAN"
+kata="IRAS"
 listKata=list(kata)
 
 data=balik(listKata)
@@ -43,6 +43,5 @@ if kata==final:
 	print("Kata Palindrom")
 else:
 	print(kata)
-	print("Setelah di Proses : ",kata)
+	print("Setelah di Proses : ",final)
 	print(kata, " Bukan Kata Palindrom")
-
